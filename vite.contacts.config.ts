@@ -5,18 +5,17 @@ import path from 'path'
 export default defineConfig({
     plugins: [vue()],
     define: {
-        'process.env': {},          // Vide, ou { NODE_ENV: '"production"' } si besoin
-        'process': {},              // Ajoute aussi un process vide si nécessaire
+        'process.env': {},
+        'process': {},
     },
     build: {
         lib: {
-            entry: path.resolve(__dirname, 'microfrontends/my-spa.ts'),
-            name: 'MySpa',
+            entry: path.resolve(__dirname, 'microfrontends/contacts.ts'),
+            name: 'App',
             formats: ['es'],
-            fileName: () => 'my-spa.js'
+            fileName: () => 'contacts.js'
         },
         rollupOptions: {
-            // Inclure Vue dans le bundle si pas déjà présent dans Joomla
             external: [],
             output: {
                 globals: {
@@ -24,10 +23,11 @@ export default defineConfig({
                 }
             }
         },
-        outDir: 'public/spa' // ou /dist si tu préfères
+        outDir: 'public/contacts'
     },
     resolve: {
         alias: {
+            '@': path.resolve(__dirname, '.'),
             '~': path.resolve(__dirname)
         }
     }

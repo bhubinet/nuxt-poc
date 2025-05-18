@@ -1,2 +1,23 @@
-@import "tailwindcss";
-@plugin "daisyui";
+@import "tailwindcss" prefix(tw);
+
+@import "./icons/material-symbols.css";
+
+@import "./brand/theme.css";
+@import "./brand/theme-client.css";
+
+@import "./typography/typography.css";
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@utility alert {
+    @apply tw:shadow-none;
+}
+
+@utility alert-warning {
+    @apply tw:bg-warning-100;
+    @apply tw:text-warning-300;
+    @apply tw:rounded-sm;
+    @apply tw:border-warning-300;
+}

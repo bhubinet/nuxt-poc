@@ -8,11 +8,12 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build:spa": "vite build --config vite.spa.config.ts"
+    "build:contacts": "vite build --config vite.contacts.config.ts"
   },
   "dependencies": {
     "@nuxt/eslint": "1.4.0",
     "@tailwindcss/vite": "^4.1.7",
+    "material-symbols": "^0.31.3",
     "nuxt": "^3.17.3",
     "tailwindcss": "^4.1.7",
     "vite": "^6.3.5",
