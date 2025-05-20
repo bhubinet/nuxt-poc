@@ -1,19 +1,17 @@
 {
   "name": "nuxt-app",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build:contacts": "vite build --config vite.contacts.config.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/eslint": "1.4.0",
     "@tailwindcss/vite": "^4.1.7",
     "material-symbols": "^0.31.3",
     "nuxt": "^3.17.3",
@@ -23,17 +21,15 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-module": "^4.1.0",
+    "@antfu/eslint-config": "^4.13.1",
+    "@nuxt/eslint": "1.4.0",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
     "@vitejs/plugin-vue": "^5.2.4",
-    "autoprefixer": "^10.4.21",
     "daisyui": "^5.0.35",
     "eslint": "^9.26.0",
+    "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-vue": "^10.1.0",
-    "postcss": "^8.5.3",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.3"
   }
 }

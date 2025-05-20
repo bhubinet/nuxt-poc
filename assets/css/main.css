@@ -1,23 +1,23 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-@import "./icons/material-symbols.css";
+@import './icons/material-symbols.css';
 
-@import "./brand/theme.css";
-@import "./brand/theme-client.css";
+@import './brand/theme.css';
+@import './brand/theme-client.css';
 
-@import "./typography/typography.css";
+@import './typography/typography.css';
 
 @plugin "daisyui" {
-    themes: light --default;
+  themes: light --default;
 }
 
 @utility alert {
-    @apply shadow-none;
+  @apply shadow-none;
 }
 
 @utility alert-warning {
-    @apply bg-warning-100;
-    @apply text-warning-300;
-    @apply rounded-sm;
-    @apply border-warning-300;
+  @apply bg-warning-100;
+  @apply text-warning-300;
+  @apply rounded-sm;
+  @apply border-warning-300;
 }

@@ -1,64 +1,64 @@
 /* Override Tailwind CSS variables */
 @theme {
-    --color-neutral-0: oklch(1 0 0);
-    --color-neutral-100: oklch(0.92 0.0121 286.16);
-    --color-neutral-200: oklch(0.79 0.0253 285.81);
-    --color-neutral-300: oklch(0.63 0.0359 285.32);
-    --color-neutral-400: oklch(0.42 0.0397 284.56);
-    --color-neutral-500: oklch(0.22 0.0252 284.19);
+  --color-neutral-0: oklch(1 0 0);
+  --color-neutral-100: oklch(0.92 0.0121 286.16);
+  --color-neutral-200: oklch(0.79 0.0253 285.81);
+  --color-neutral-300: oklch(0.63 0.0359 285.32);
+  --color-neutral-400: oklch(0.42 0.0397 284.56);
+  --color-neutral-500: oklch(0.22 0.0252 284.19);
 
-    --color-primary-100: #D4EECC;
-    --color-primary-200: #29AB00;
-    --color-primary-300: #24780E;
-    --color-primary-400: #1E451B;
+  --color-primary-100: #d4eecc;
+  --color-primary-200: #29ab00;
+  --color-primary-300: #24780e;
+  --color-primary-400: #1e451b;
 
-    --color-secondary-100: #CCECF6;
-    --color-secondary-200: #009FD3;
-    --color-secondary-300: #097197;
-    --color-secondary-400: #12425A;
+  --color-secondary-100: #ccecf6;
+  --color-secondary-200: #009fd3;
+  --color-secondary-300: #097197;
+  --color-secondary-400: #12425a;
 
-    --color-tertiary-100: #F1E9CC;
-    --color-tertiary-200: #B88F00;
-    --color-tertiary-300: #81660E;
-    --color-tertiary-400: #493D1B;
+  --color-tertiary-100: #f1e9cc;
+  --color-tertiary-200: #b88f00;
+  --color-tertiary-300: #81660e;
+  --color-tertiary-400: #493d1b;
 
-    --color-success-100: #D2E6DF;
-    --color-success-200: #20835F;
-    --color-success-300: #1E5E4C;
-    --color-success-400: #1C3938;
+  --color-success-100: #d2e6df;
+  --color-success-200: #20835f;
+  --color-success-300: #1e5e4c;
+  --color-success-400: #1c3938;
 
-    --color-warning-100: #FCE1D2;
-    --color-warning-200: #EF681F;
-    --color-warning-300: #A54D22;
-    --color-warning-400: #5A3124;
+  --color-warning-100: #fce1d2;
+  --color-warning-200: #ef681f;
+  --color-warning-300: #a54d22;
+  --color-warning-400: #5a3124;
 
-    --color-error-100: #FCDAD7;
-    --color-error-200: #F04437;
-    --color-error-300: #A53532;
-    --color-error-400: #5A262C;
+  --color-error-100: #fcdad7;
+  --color-error-200: #f04437;
+  --color-error-300: #a53532;
+  --color-error-400: #5a262c;
 
-    --color-info-100: #E5E9FF;
-    --color-info-200: #7E8FFF;
-    --color-info-300: #5B66B4;
-    --color-info-400: #383D68;
+  --color-info-100: #e5e9ff;
+  --color-info-200: #7e8fff;
+  --color-info-300: #5b66b4;
+  --color-info-400: #383d68;
 
-    --text-3xl: 1.75rem;
+  --text-3xl: 1.75rem;
 }
 
 /* Override DaisyUI variables (https://daisyui.com/docs/colors/#list-of-all-daisyui-color-names) */
 :root {
-    --color-warning-content: var(--color-warning-300);
-    --color-warning: var(--color-warning-300);
+  --color-warning-content: var(--color-warning-300);
+  --color-warning: var(--color-warning-300);
 }
 
 /* For browsers that do not support oklch */
 @supports not (background-color: oklch(0% 0 0)) {
-    :root {
-        --color-neutral-0: #ffffff;
-        --color-neutral-100: #e4e4ed;
-        --color-neutral-200: #b9b9cb;
-        --color-neutral-300: #85859d;
-        --color-neutral-400: #4a4a62;
-        --color-neutral-500: #1a1a27;
-    }
+  :root {
+    --color-neutral-0: #ffffff;
+    --color-neutral-100: #e4e4ed;
+    --color-neutral-200: #b9b9cb;
+    --color-neutral-300: #85859d;
+    --color-neutral-400: #4a4a62;
+    --color-neutral-500: #1a1a27;
+  }
 }

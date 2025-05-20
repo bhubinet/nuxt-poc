@@ -1,10 +1,10 @@
 <template>
-  <div class="flex-col w-full h-screen bg-zinc-950 items-center justify-center flex">
+  <div class="flex h-screen w-full flex-col items-center justify-center bg-zinc-950">
     <div class="mx-auto">
-      <h1 class="text-3xl text-blue-400 font-bold underline">
+      <h1 class="text-3xl font-bold text-blue-400 underline">
         Nuxt 3 template
       </h1>
-      <ul class="text-white flex flex-col gap-y-3 mt-6 ">
+      <ul class="mt-6 flex flex-col gap-y-3 text-white">
         <li class="hover:text-blue-950">
           <a href="https://www.typescriptlang.org/">Typescript</a>
         </li>
