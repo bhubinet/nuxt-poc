@@ -23,5 +23,8 @@ export default withNuxt(
        */
       markdown: 'prettier',
     },
+    vue: {
+      a11y: true,
+    },
   }),
 )
