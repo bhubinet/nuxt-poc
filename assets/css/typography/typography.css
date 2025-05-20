@@ -1,14 +1,14 @@
 h1 {
-    @apply tw:text-3xl;
+    @apply text-3xl;
     line-height: 30px;
 }
 
 h2 {
-    @apply tw:text-2xl;
+    @apply text-2xl;
     line-height: 30px;
 }
 
 h3 {
-    @apply tw:text-lg;
+    @apply text-lg;
     line-height: 30px;
 }

@@ -8,7 +8,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build:contacts": "vite build --config vite.contacts.config.ts"
+    "build:contacts": "vite build --config vite.contacts.config.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/eslint": "1.4.0",
@@ -30,6 +32,8 @@
     "eslint": "^9.26.0",
     "eslint-plugin-vue": "^10.1.0",
     "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.3"
   }
 }

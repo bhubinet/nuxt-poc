@@ -47,18 +47,18 @@
 
 /* Override DaisyUI variables (https://daisyui.com/docs/colors/#list-of-all-daisyui-color-names) */
 :root {
-    --color-warning-content: var(--tw-color-warning-300);
-    --color-warning: var(--tw-color-warning-300);
+    --color-warning-content: var(--color-warning-300);
+    --color-warning: var(--color-warning-300);
 }
 
 /* For browsers that do not support oklch */
 @supports not (background-color: oklch(0% 0 0)) {
     :root {
-        --tw-color-neutral-0: #ffffff;
-        --tw-color-neutral-100: #e4e4ed;
-        --tw-color-neutral-200: #b9b9cb;
-        --tw-color-neutral-300: #85859d;
-        --tw-color-neutral-400: #4a4a62;
-        --tw-color-neutral-500: #1a1a27;
+        --color-neutral-0: #ffffff;
+        --color-neutral-100: #e4e4ed;
+        --color-neutral-200: #b9b9cb;
+        --color-neutral-300: #85859d;
+        --color-neutral-400: #4a4a62;
+        --color-neutral-500: #1a1a27;
     }
 }

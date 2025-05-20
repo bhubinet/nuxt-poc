@@ -1,4 +1,4 @@
-@import "tailwindcss" prefix(tw);
+@import "tailwindcss";
 
 @import "./icons/material-symbols.css";
 
@@ -12,12 +12,12 @@
 }
 
 @utility alert {
-    @apply tw:shadow-none;
+    @apply shadow-none;
 }
 
 @utility alert-warning {
-    @apply tw:bg-warning-100;
-    @apply tw:text-warning-300;
-    @apply tw:rounded-sm;
-    @apply tw:border-warning-300;
+    @apply bg-warning-100;
+    @apply text-warning-300;
+    @apply rounded-sm;
+    @apply border-warning-300;
 }
