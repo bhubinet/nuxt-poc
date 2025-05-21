@@ -14,6 +14,9 @@
         <li class="hover:text-blue-950">
           <a href="https://tailwindcss.com/">TailwindCSS</a>
         </li>
+        <AtomsAlert>
+          Test
+        </AtomsAlert>
       </ul>
     </div>
   </div>
