@@ -15,11 +15,12 @@ The project requires a fast, reliable, and space-efficient package manager. Whil
 We will adopt `pnpm` as the default package manager for this project.
 
 Reasons include:
-* **Speed**: pnpm is significantly faster due to its caching mechanism and optimized dependency resolution.
-* **Disk Efficiency**: Uses a content-addressable storage system to avoid duplicating files.
-* **Strictness**: Enforces stricter rules than npm/yarn, preventing issues like phantom dependencies.
-* **Monorepo-ready**: First-class support for workspaces, useful for potential modularization or microfrontend setups.
+
+- **Speed**: pnpm is significantly faster due to its caching mechanism and optimized dependency resolution.
+- **Disk Efficiency**: Uses a content-addressable storage system to avoid duplicating files.
+- **Strictness**: Enforces stricter rules than npm/yarn, preventing issues like phantom dependencies.
+- **Monorepo-ready**: First-class support for workspaces, useful for potential modularization or microfrontend setups.
 
 ## Consequences
 
-* Contributors must install pnpm locally.
+- Contributors must install pnpm locally.

@@ -16,5 +16,5 @@ We adopt `<script setup>` for components unless there's a specific need for Opti
 
 ## Consequences
 
-* Consistent and modern syntax
-* Slight learning curve for new contributors
+- Consistent and modern syntax
+- Slight learning curve for new contributors

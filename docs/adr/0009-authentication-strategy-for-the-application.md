@@ -8,8 +8,6 @@ To Be Decided
 
 ## Context
 
-
 ## Decision
-
 
 ## Consequences

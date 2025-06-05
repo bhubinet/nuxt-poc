@@ -14,6 +14,7 @@ To improve developer experience and discoverability of component-related files.
 
 To improve developer experience and discoverability of component-related files.
 Decision: We keep each component in its own folder:
+
 ```
 components/
 └── atoms/
@@ -21,9 +22,10 @@ components/
         ├── Alert.vue
         └── Alert.test.ts
 ```
+
 The change that we're proposing or have agreed to implement.
 
 ## Consequences
 
-* More folders, but easier to maintain
-* Encourages writing styles and tests early
+- More folders, but easier to maintain
+- Encourages writing styles and tests early

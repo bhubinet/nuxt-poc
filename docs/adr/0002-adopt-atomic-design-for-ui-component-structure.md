@@ -16,6 +16,6 @@ We'll use the Atomic Design methodology (Atoms, Molecules, Organisms, Templates,
 
 ## Consequences
 
-* Better collaboration and modularity
-* Slightly more complex folder hierarchy
-* All developers must follow naming conventions
+- Better collaboration and modularity
+- Slightly more complex folder hierarchy
+- All developers must follow naming conventions

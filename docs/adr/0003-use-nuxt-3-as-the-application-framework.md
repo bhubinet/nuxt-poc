@@ -16,5 +16,5 @@ We choose Nuxt 3 due to its Vite integration, file-based routing, and strong eco
 
 ## Consequences
 
-* Opinionated structure (beneficial for consistency)
-* Learning curve for Nuxt-specific conventions
+- Opinionated structure (beneficial for consistency)
+- Learning curve for Nuxt-specific conventions

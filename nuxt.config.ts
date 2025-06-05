@@ -14,4 +14,7 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+  runtimeConfig: {
+    ENTRYPOINT: process.env.ENTRYPOINT,
+  },
 })
