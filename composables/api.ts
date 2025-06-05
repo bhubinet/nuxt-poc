@@ -40,16 +40,13 @@ export async function useFetchList<T>(
 
   const items: Ref<T[]> = ref([])
   const view: Ref<View | undefined> = ref(undefined)
-  const hubUrl: Ref<URL | undefined> = ref(undefined)
 
   const page = ref(route.params.page)
 
   const { data, pending, error } = await useApi<T>(resource, {
     params: { page },
 
-    onResponse({ response }) {
-      hubUrl.value = extractHubURL(response)
-    },
+    // onResponse({ response }) {},
   })
 
   const value = data.value as PagedCollection<T>
@@ -61,18 +58,15 @@ export async function useFetchList<T>(
     view,
     isLoading: pending,
     error,
-    hubUrl,
   }
 }
 
 export async function useFetchItem<T>(path: string): Promise<FetchItemData<T>> {
   const retrieved: Ref<T | undefined> = ref(undefined)
-  const hubUrl: Ref<URL | undefined> = ref(undefined)
 
   const { data, pending, error } = await useApi<T>(path, {
     onResponse({ response }) {
       retrieved.value = response._data
-      hubUrl.value = extractHubURL(response)
     },
   })
 
@@ -82,7 +76,6 @@ export async function useFetchItem<T>(path: string): Promise<FetchItemData<T>> {
     retrieved,
     isLoading: pending,
     error,
-    hubUrl,
   }
 }
 

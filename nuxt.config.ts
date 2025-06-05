@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    ENTRYPOINT: process.env.ENTRYPOINT,
+    // eslint-disable-next-line node/prefer-global/process
+    ENTRYPOINT: process.env.ENTRYPOINT || 'http://localhost:3000',
   },
 })
