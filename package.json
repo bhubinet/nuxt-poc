@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
+    "dayjs": "^1.11.13",
     "material-symbols": "^0.31.5",
     "nuxt": "^3.17.5",
     "tailwindcss": "^4.1.8",
