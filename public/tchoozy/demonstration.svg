@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 841.89 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom_11-10);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom_11-9);
+      }
+
+      .cls-3 {
+        fill: url(#Dégradé_sans_nom_11-3);
+      }
+
+      .cls-4 {
+        fill: url(#Dégradé_sans_nom_11-2);
+      }
+
+      .cls-5 {
+        fill: url(#Dégradé_sans_nom_11-4);
+      }
+
+      .cls-6 {
+        fill: url(#Dégradé_sans_nom_11-7);
+      }
+
+      .cls-7 {
+        fill: url(#Dégradé_sans_nom_11-6);
+      }
+
+      .cls-8 {
+        fill: url(#Dégradé_sans_nom_11-5);
+      }
+
+      .cls-9 {
+        fill: url(#Dégradé_sans_nom_11-8);
+      }
+
+      .cls-10 {
+        fill: #5b5a72;
+      }
+
+      .cls-11 {
+        fill: #353544;
+      }
+
+      .cls-12 {
+        fill: #fff;
+        opacity: .5;
+      }
+
+      .cls-13 {
+        fill: url(#Dégradé_sans_nom_46);
+      }
+
+      .cls-14 {
+        fill: url(#Dégradé_sans_nom_11);
+      }
+
+      .cls-15 {
+        fill: url(#Dégradé_sans_nom_17);
+      }
+
+      .cls-16 {
+        fill: url(#Dégradé_sans_nom_26);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_11" data-name="Dégradé sans nom 11" x1="531.95" y1="215.13" x2="565.99" y2="249.17" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#43bee0"/>
+      <stop offset=".5" stop-color="#68b650"/>
+      <stop offset=".96" stop-color="#eee971"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_11-2" data-name="Dégradé sans nom 11" x1="307.19" y1="140.67" x2="338.1" y2="171.58" gradientTransform="translate(-71.95 164.76) rotate(-15.54)" xlink:href="#Dégradé_sans_nom_11"/>
+    <linearGradient id="Dégradé_sans_nom_11-3" data-name="Dégradé sans nom 11" x1="437.51" y1="105.08" x2="473.43" y2="141" gradientTransform="translate(-72.24 166.4) rotate(-15.29)" xlink:href="#Dégradé_sans_nom_11"/>
+    <linearGradient id="Dégradé_sans_nom_11-4" data-name="Dégradé sans nom 11" x1="291.32" y1="81.72" x2="343.98" y2="134.38" xlink:href="#Dégradé_sans_nom_11"/>
+    <linearGradient id="Dégradé_sans_nom_11-5" data-name="Dégradé sans nom 11" x1="446.23" y1="166.86" x2="494.04" y2="214.67" gradientTransform="translate(207.7 -223.3) rotate(25.35)" xlink:href="#Dégradé_sans_nom_11"/>
+    <linearGradient id="Dégradé_sans_nom_11-6" data-name="Dégradé sans nom 11" x1="339.52" y1="115.92" x2="395.09" y2="171.5" gradientTransform="translate(180.48 -202.28) rotate(22.51)" xlink:href="#Dégradé_sans_nom_11"/>
+    <radialGradient id="Dégradé_sans_nom_17" data-name="Dégradé sans nom 17" cx="706.02" cy="549.64" fx="706.02" fy="549.64" r="94.16" gradientTransform="translate(-599.15 486.9) rotate(.01) scale(1.45 .11)" gradientUnits="userSpaceOnUse">
+      <stop offset=".4" stop-color="#353544" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#353544" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="Dégradé_sans_nom_11-7" data-name="Dégradé sans nom 11" x1="353.55" y1="227.12" x2="484.21" y2="357.78" xlink:href="#Dégradé_sans_nom_11"/>
+    <linearGradient id="Dégradé_sans_nom_26" data-name="Dégradé sans nom 26" x1="502.69" y1="401.14" x2="586.54" y2="317.29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#68b650"/>
+      <stop offset="1" stop-color="#eee971"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_46" data-name="Dégradé sans nom 46" x1="339.97" y1="401.14" x2="260.3" y2="321.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#43bee0"/>
+      <stop offset="1" stop-color="#68b650"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_11-8" data-name="Dégradé sans nom 11" x1="363.98" y1="350.2" x2="484.36" y2="470.58" xlink:href="#Dégradé_sans_nom_11"/>
+    <linearGradient id="Dégradé_sans_nom_11-9" data-name="Dégradé sans nom 11" x1="345.81" y1="235.59" x2="491.02" y2="380.8" xlink:href="#Dégradé_sans_nom_11"/>
+    <linearGradient id="Dégradé_sans_nom_11-10" data-name="Dégradé sans nom 11" x1="413.66" y1="150.51" x2="557.69" y2="294.54" xlink:href="#Dégradé_sans_nom_11"/>
+  </defs>
+  <path class="cls-14" d="M549.73,212.46c11.3,0,20.47,9.16,20.47,20.46s-9.17,20.47-20.47,20.47-20.46-9.17-20.46-20.47,9.16-20.46,20.46-20.46ZM559.15,232.92c0-5.2-4.22-9.42-9.42-9.42s-9.42,4.22-9.42,9.42,4.22,9.42,9.42,9.42,9.42-4.22,9.42-9.42Z"/>
+  <path class="cls-4" d="M300.77,234.84l-34.09,9.48c-1.64.46-3.4,0-4.61-1.19-1.21-1.19-1.7-2.94-1.28-4.59l8.84-34.26c.43-1.65,1.7-2.94,3.34-3.4,1.64-.46,3.4,0,4.61,1.19l25.25,24.78c1.21,1.19,1.7,2.94,1.28,4.59-.43,1.65-1.7,2.94-3.34,3.4ZM272.09,232.93l18.19-5.06-13.47-13.22-4.71,18.28Z"/>
+  <path class="cls-3" d="M418.81,179.73l-28.34,7.75c-2.47.67-5.01-.78-5.69-3.24l-7.75-28.34c-.67-2.47.78-5.01,3.24-5.69l28.34-7.75c2.47-.67,5.01.78,5.69,3.24l7.75,28.34c.67,2.47-.78,5.01-3.24,5.69ZM392.5,177.32l19.41-5.31-5.31-19.41-19.41,5.31,5.31,19.41Z"/>
+  <path class="cls-5" d="M318.84,77.58c17.48,0,31.67,14.17,31.67,31.65s-14.19,31.67-31.67,31.67-31.65-14.19-31.65-31.67,14.17-31.65,31.65-31.65ZM333.41,109.23c0-8.05-6.53-14.57-14.57-14.57s-14.57,6.53-14.57,14.57,6.53,14.57,14.57,14.57,14.57-6.53,14.57-14.57Z"/>
+  <path class="cls-8" d="M568.16,177.83l-49.46-23.44c-2.38-1.13-3.98-3.44-4.19-6.06-.21-2.62.99-5.16,3.16-6.66l45.03-31.12c2.17-1.5,4.97-1.72,7.35-.6,2.38,1.13,3.98,3.44,4.19,6.06l4.43,54.56c.21,2.62-.99,5.16-3.16,6.66-2.17,1.5-4.97,1.72-7.35.6ZM536.54,146.54l26.39,12.5-2.37-29.11-24.02,16.6Z"/>
+  <path class="cls-7" d="M474.32,107.42l-41.99-17.4c-3.65-1.51-5.39-5.7-3.87-9.36l17.4-41.99c1.51-3.65,5.7-5.39,9.36-3.87l41.99,17.4c3.65,1.51,5.39,5.7,3.87,9.36l-17.4,41.99c-1.51,3.65-5.7,5.39-9.36,3.87ZM444.44,79.53l28.75,11.92,11.92-28.75-28.75-11.92-11.92,28.75Z"/>
+  <ellipse class="cls-15" cx="421.81" cy="549.64" rx="138.34" ry="11.62"/>
+  <path class="cls-6" d="M421.83,247.94c-20.28,0-36.68,13.08-36.68,29.22s16.39,29.26,36.68,29.26,36.68-13.08,36.68-29.26-16.45-29.22-36.68-29.22ZM351.58,330.66c-5.33-10.61-8.34-22.62-8.34-35.29,0-43.35,35.18-78.52,78.58-78.52s78.58,35.18,78.58,78.52c0,12.67-3,24.67-8.34,35.29-12.95,25.67-39.51,43.29-70.24,43.29s-57.29-17.62-70.24-43.29Z"/>
+  <path class="cls-16" d="M510.46,395.13c8.8,1.3,21.69-.02,34.24-13.31,16.08-17,29.92-55.09,36.28-74.5.92-2.77-2.64-4.75-4.58-2.58l-69.95,79.14c-3.59,4.03-1.28,10.47,4.02,11.26Z"/>
+  <path class="cls-13" d="M332.2,395.13c-8.8,1.3-21.69-.02-34.24-13.31-16.08-17-29.92-55.09-36.28-74.5-.92-2.77,2.64-4.75,4.58-2.58l69.95,79.14c3.59,4.03,1.28,10.47-4.02,11.26Z"/>
+  <path class="cls-9" d="M491.05,369.97c5.95-1.78,11.11,4.45,8.22,9.95l-68.19,130.65c-3.89,7.5-14.67,7.5-18.56,0l-68.19-130.65c-2.83-5.5,2.33-11.73,8.28-9.95l61.52,18.67,4.45,53.74c.33,3.95,6.11,3.95,6.45,0l4.45-53.74,61.57-18.67Z"/>
+  <path class="cls-2" d="M351.57,217.21v42.9c-5.33,10.61-8.34,22.62-8.34,35.29v-78.24c-3.89-3.45-6.61-11.56-6.61-21.06,0-12.61,4.83-17.28,10.84-17.28s10.84,4.67,10.84,17.28c0,9.5-2.78,17.67-6.72,21.12Z"/>
+  <path class="cls-1" d="M500.39,217.15v78.24c0-12.67-3-24.67-8.34-35.29v-42.9c-3.95-3.45-6.72-11.61-6.72-21.12,0-12.61,4.89-17.28,10.84-17.28s10.84,4.67,10.84,17.28c0,9.5-2.72,17.62-6.61,21.06Z"/>
+  <path class="cls-10" d="M406.06,312.72h31.51s-.66,24.42-15.76,24.42-15.76-24.42-15.76-24.42Z"/>
+  <path class="cls-11" d="M465.84,295.4c3.91-3.8,6.5-10.86,6.5-20.98,0-15.92-6.41-24.27-14.32-24.27s-14.32,8.35-14.32,24.27c0,9.95,2.5,16.95,6.31,20.79,0,0,8.07-3.23,15.82.19Z"/>
+  <ellipse class="cls-12" cx="454.6" cy="268.01" rx="3.33" ry="2.29"/>
+  <ellipse class="cls-12" cx="459.69" cy="260.99" rx="5.09" ry="4.47"/>
+  <path class="cls-11" d="M393.35,295.4c3.91-3.8,6.5-10.86,6.5-20.98,0-15.92-6.41-24.27-14.32-24.27s-14.32,8.35-14.32,24.27c0,9.95,2.5,16.95,6.31,20.79,0,0,8.07-3.23,15.82.19Z"/>
+  <ellipse class="cls-12" cx="382.11" cy="268.01" rx="3.33" ry="2.29"/>
+  <ellipse class="cls-12" cx="387.2" cy="260.99" rx="5.09" ry="4.47"/>
+  <path class="cls-11" d="M443.71,226.05s13.17-4.71,28.64,11.06c0,0-9.89-15.56-17.74-16.58-7.32-.96-10.9,5.53-10.9,5.53Z"/>
+  <path class="cls-11" d="M399.85,226.05s-13.17-4.71-28.64,11.06c0,0,9.89-15.56,17.74-16.58,7.32-.96,10.9,5.53,10.9,5.53Z"/>
+</svg>

@@ -18,4 +18,15 @@ export default defineNuxtConfig({
     // eslint-disable-next-line node/prefer-global/process
     ENTRYPOINT: process.env.ENTRYPOINT || 'http://localhost:3000',
   },
+  app: {
+    head: {
+      title: 'Tchooz',
+      htmlAttrs: {
+        lang: 'fr',
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      ],
+    },
+  },
 })
